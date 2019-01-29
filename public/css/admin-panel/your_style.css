@@ -1,0 +1,116 @@
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+
+.has-feedback label~.form-control-feedback {
+    top: 0px;
+}
+.error{
+    color:#b94a48;
+}
+
+/* add food box */
+.cuisine-box {
+    margin-right: 0px;
+    margin-left: 10px;
+    background: #f8f8f8;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    margin-bottom: 20px;
+    float: left;
+    padding: 20px 20px;
+    width: calc(50% - 10px);
+}
+.cuisine-box h3 {
+    color: #6a6a6a;
+    font-size: 12px;
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.edit-del {
+    display: inline-block;
+    float: right;
+}
+.edit-del a {
+    display: inline-block;
+    padding-left: 15px;
+}
+.cuisine-box ul {
+    display: inline-block;
+    width: 100%;
+}
+.cuisine-box ul li {
+    border: 1px solid #dedede;
+    background: #fff;
+    padding: 5px 8px;
+    list-style: none;
+    display: inline-block;
+    font-size: 12px;
+    color: #6a6a6a;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.cuisine-box ul li span {
+    display: block;
+    color: #b11f5f;
+}
+/*button, html input[type=button], input[type=reset], input[type=submit] {*/
+    /*-webkit-appearance: button;*/
+    /*cursor: pointer;*/
+    /*display: inline-block;*/
+    /*margin-bottom: 0;*/
+    /*font-weight: 400;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+    /*touch-action: manipulation;*/
+    /*cursor: pointer;*/
+    /*background-image: none;*/
+    /*border: 1px solid transparent;*/
+    /*white-space: nowrap;*/
+    /*padding: 6px 12px;*/
+    /*font-size: 13px;*/
+    /*line-height: 1.42857143;*/
+    /*border-radius: 2px;*/
+    /*-webkit-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*user-select: none;*/
+/*}*/
+/* end add food box */
+.custom-check-td .smart-form{
+    display: flex;
+    justify-content: center;
+    float: inherit;
+}
+.center-block {
+    /*text-align: center;*/
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.inbox-widget .inbox-item img {
+    height: 40px;
+}
+
